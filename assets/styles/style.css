@@ -162,8 +162,8 @@ body {
 }
 
 .home__social {
-  display: flex;
   margin-top: 100px;
+  width: 50%;
   font-size: 20px;
 }
 
@@ -442,12 +442,13 @@ body {
 
 .footer {
   width: 100%;
-  height: 40px;
+  height: 60px;
   text-align: center;
   background-color: #1d1d1d;
-  line-height: 40px;
+  line-height: 20px;
   font-size: 0.8rem;
   color: #fff;
+  padding-top: 10px;
 }
 
 .footer a {
@@ -537,6 +538,22 @@ body {
     width: 300px;
     margin: 20px;
   }
+  .brand {
+    font-size: scale(1.2);
+  }
+
+  .brand a {
+    font-weight: 600;
+  }
+
+  .home__social {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hero-content {
     width: 70%;
     min-width: 350px;
@@ -575,6 +592,10 @@ body {
   .left-col::before,
   .tags {
     font-size: 1.4rem;
+  }
+
+  .brand {
+    font-weight: bold;
   }
   .about-image {
     width: 90%;
