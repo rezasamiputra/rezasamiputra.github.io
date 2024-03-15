@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/img/logoku.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;1,100&display=swap"
+        rel="stylesheet">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar">
+            <h1 class="brand"><a href="">MRS<span class="highlight">P</span></a></h1>
+            <section class="toggle-btn">
+                <span></span>
+                <span></span>
+            </section>
+            <ul class="links-container">
+                <li class="links-item"><a href="#home-section" class="link active">home</a></li>
+                <li class="links-item"><a href="#about-section" class="link">about</a></li>
+                <li class="links-item"><a href="#project-section" class="link">projects</a></li>
+                <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- home section -->
+
+        <section class="home" id="home-section">
+            <aside class="hero-content">
+                <h1 class="hero-heading"><span class="highlight">Hi,</span> i am Reza</h1>
+                <p class="profession"> Front-end Developer</p>
+                <p class="info">Front-end Developer itu mudah dan menyenangkan bukan ? <b>bukan!</b></p>
+                <a href="#contact-section" class="btn">contact</a>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/muhammad-reza-sami-putra/" class="home__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/rezasamiputra" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://wwww.instagram.com/instmrsp" class="home__social-icon"><i
+                            class='bx bxl-instagram'></i></a>
+                    <a href="https://web.facebook.com/samiputra" class="home__sosial-icon"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/ejatwit" class="footer__sosial-icon"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </aside>
+            <img src="assets/img/sami.png" class="image" alt="foto reza">
+        </section>
+    </header>
+
+
+    <!-- about section -->
+    <main>
+        <section class="about" id="about-section">
+            <h2 class="heading">about <span class="highlight">me</span></h2>
+            <p class="sub-heading">Sedikit tentang saya</p>
+            <section class="seperator"></section>
+
+            <article class="about-me-container">
+                <section class="left-col">
+                    <img src="assets/img/samiputra.png" class="about-image " alt="">
+                </section>
+                <aside class="right-col">
+                    <p class="about-para">
+                        Saya adalah seorang Frontend Developer yang berdedikasi dan bersemangat dengan pengalaman lebih
+                        dari 2 tahun dalam pengembangan web. Dengan latar belakang dalam bahasa pemrograman
+                        seperti <b>Javascript,
+                            PHP dan Python</b> dan memiliki skill dari beberapa freamwork seperti: <b>Tailwind CSS,
+                            Bootstrap,
+                            Node JS, React
+                            JS, Vue JS, Next JS dan Laravel.</b> saya memiliki keahlian dalam menciptakan antarmuka
+                        pengguna
+                        yang menarik dan responsif.
+                    </p>
+                    <a href="https://drive.google.com/file/d/17b2LWe4E3FnQEMMsqPoqi9ZGDNBcKccm/view?usp=sharing"
+                        class="btn">download cV</a>
+                </aside>
+            </article>
+            <h2 class="heading">languages and framework i know</h2>
+            <section class="seperator"></section>
+
+            <article class="skill-container">
+                <section class="skill-card" style="--bg: #f06529">
+                    <p class="skill">HTML</p>
+                </section>
+                <section class="skill-card" style="--bg: #379ad6">
+                    <p class="skill">CSS</p>
+                </section>
+                <section class="skill-card" style="--bg: #cc6699">
+                    <p class="skill">TailwindCSS</p>
+                </section>
+                <section class="skill-card" style="--bg: #f7df1e">
+                    <p class="skill">JavaScript</p>
+                </section>
+                <section class="skill-card large" style="--bg: #83cd29">
+                    <p class="skill">NodeJS</p>
+                </section>
+                <section class="skill-card large" style="--bg: #5ed9fb">
+                    <p class="skill">ReactJS</p>
+                </section>
+                <section class="skill-card" style="--bg: #3FB27F">
+                    <p class="skill">VueJS</p>
+                </section>
+                <section class="skill-card large" style="--bg: #b4ba27">
+                    <p class="skill">Much More</p>
+                </section>
+            </article>
+        </section>
+
+        <!-- project section -->
+        <section class="project" id="project-section">
+            <h2 class="heading">Project<span class="highlight">s</span></h2>
+            <p class="sub-heading">Project yang di buat</p>
+            <section class="seperator"></section>
+            <section class="filters">
+                <button class="filter-btn active" id="all">all</button>
+                <button class="filter-btn" id="javascript">javaScript</button>
+                <button class="filter-btn" id="frontend">frontend</button>
+                <button class="filter-btn" id="backend">backend</button>
+                <button class="filter-btn" id="fullstack">fullStack</button>
+            </section>
+            <section class="project-container">
+                <!-- <section class="project-card">
+                <img src="assest/img/project01.jpg" alt="">
+                <section class="content">
+                    <h1 class="project-name">project one</h1>
+                    <span class="tags">#javascript</span>
+                </section>
+            </section> -->
+            </section>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="contact-section">
+            <h2 class="heading">contact <span class="highlight">me</span></h2>
+            <p class="sub-heading">Hubungi saya melalui form di bawah ini</p>
+            <section class="seperator"></section>
+
+            <form class="contact-form" name="form-web-portfolio">
+                <input type="text" class="first-name" required placeholder="Masukkan nama anda" name="nama">
+                <input type="email" class="email" required placeholder="Masukkan email anda" name="email">
+                <input type="hp" class="hp" required placeholder="Masukkan nomor telepon anda" name="hp">
+                <textarea name="pesan" id="message" class="pesan" placeholder="pesan yang ingin anda sampaikan"
+                    required></textarea>
+                <button class="btn contact-btn" type="submit">send</button>
+            </form>
+        </section>
+    </main>
+
+
+    <!-- footer -->
+    <footer class="footer">Made with ❤ by <a href=""> Muhammad Reza Sami Putra</a>
+        Copyright @ 2024 .
+        All right reserved
+    </footer>
+
+
+    <script src="assets/script/project.js"></script>
+    <script src="assets/script/app.js"></script>
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycby1Hw8jrUbzCqAMAZL8M6KIpcIacdwyj9UH_jsuTXC7YQGD4P6PaqwfISInzg440GxO/exec'
+        const form = document.forms['form-web-portfolio']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    alert("Terima kasih sudah menghubungi saya");
+                    form.reset()
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
